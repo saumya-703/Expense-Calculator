@@ -1,0 +1,95 @@
+*{
+    font-family: 'Montserrat', sans-serif;;
+    background-color: #0E0E15;
+}
+h1{
+    color: rgb(226, 226, 226);
+    text-align: center;
+    padding-top: 40px;
+}
+.enter{
+ color: rgb(89, 154, 253);
+ text-align: center;
+ width: 50%;
+}
+input{
+    border-color: rgb(193, 193, 255);
+    margin: 10px 10px 10px 10px;
+    color: cornsilk;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+    animation: step-end;
+    animation-duration: 50sec;
+}
+.button{
+    padding:10px 20px 10px 20px;
+    border:5px;
+    border-radius:50px;
+    font-size: medium;
+    font-weight: 300;
+    background-color: aliceblue;
+}
+.text {
+    margin-top: 20px;
+    padding-top: 20px;
+    align-items: center;
+
+}
+.all{
+    display: flex;
+    margin-top: 70px;
+}
+h4{
+    color: rgb(221, 221, 221);
+}
+table{
+    color: azure;
+    display: flex;
+    margin-top: 20px;
+}
+th{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    color: rgb(89, 154, 253);
+}
+td{
+    padding-left: 30px;
+    padding-bottom: 10px ;
+}
+.total{
+    color: rgb(238, 38, 38);
+}
+.result{
+    padding-left: 150px;
+}
+.refresh{
+    border-color: rgb(193, 193, 255);
+    margin: 10px 10px 10px 10px;
+    color: cornsilk;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+    animation: step-end;
+    animation-duration: 50sec;
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        color: rgb(226, 226, 226);
+        text-align: center;
+        padding-top: 40px;
+    }
+    .enter{
+        color: rgb(89, 154, 253);
+        text-align: center;
+        width:100%;
+        margin-top: 0;
+;
+       }
+       .all{
+           display:inline;
+       }
+       .result{
+           padding:0px;
+       }
+    } 
